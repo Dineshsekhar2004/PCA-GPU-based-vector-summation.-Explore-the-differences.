@@ -423,7 +423,14 @@ free(gpuRef);
 return(0);
 
 ## Output:
+1.Block.x=1023
 ![image](https://github.com/Dineshsekhar2004/PCA-GPU-based-vector-summation.-Explore-the-differences./assets/119405916/c36a3945-b11c-4939-93d5-7ffa45c8936d)
+2.Block.x=1024
+![image](https://github.com/Dineshsekhar2004/PCA-GPU-based-vector-summation.-Explore-the-differences./assets/119405916/996d03f8-0ce7-486c-b838-06d88e2b1fcf)
+3.Block.x=256
+![image](https://github.com/Dineshsekhar2004/PCA-GPU-based-vector-summation.-Explore-the-differences./assets/119405916/404605d1-c018-4eb5-b2ef-3ba0fa3559a0)
+
+
 
 
 
