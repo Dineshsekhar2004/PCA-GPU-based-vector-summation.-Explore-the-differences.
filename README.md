@@ -21,10 +21,11 @@ ii) Refer to sumArraysOnGPU-timer.cu, and let block.x = 256. Make a new kernel t
 6.Copy output data from the device to the host and verify the results against the host's sequential vector addition. Free memory on the host and the device.
 
 PROGRAM
+
 Developed By: S.Dinesh
 
 Register no:212222230033
-
+```
 1.Block.x=1023
 #include "../common/common.h" 
 #include <cuda_runtime.h> 
@@ -421,7 +422,7 @@ free(hostRef);
 free(gpuRef);
 
 return(0);
-
+```
 ## Output:
 1.Block.x=1023
 ![image](https://github.com/Dineshsekhar2004/PCA-GPU-based-vector-summation.-Explore-the-differences./assets/119405916/c36a3945-b11c-4939-93d5-7ffa45c8936d)
